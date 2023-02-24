@@ -11,7 +11,7 @@ import lombok.*;
 @Builder
 public class Country {
 
-    private Long id;
+    private String id;
     private String countryName;
     private Integer telephoneCodArea;
 
